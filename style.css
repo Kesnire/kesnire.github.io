@@ -1,0 +1,122 @@
+:root{
+--honey-yellow: #fbaf00ff;
+--cyber-yellow: #ffd639ff;
+--russian-green: #5c946eff;
+--green-sheen: #80c2afff;
+--green-blue-crayola: #1e91d6ff;
+--french-blue: #0072bbff;
+--coral: #ff8552ff;
+}
+
+html{
+    font-family: "Roboto";
+}
+
+body{
+    margin: 0;
+    background-color: rgb(228, 233, 240);
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.8em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+i{
+    font-size: 3.5em;
+    background-color: var(--cyber-yellow);
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 5px solid var(--honey-yellow);
+    width: 75px;
+    text-align: center;
+    margin-bottom: 8px;
+    transition: ease-in-out 150ms;
+}
+i:hover{
+    transform: translateY(-5px) scale(1.1) rotate(5deg);
+    transition: ease-in-out 150ms;
+}
+
+.centered{
+    text-align: center;
+}
+
+#introduction{
+    display: flex;
+    background-color: white;
+    padding: 25px;
+    border-bottom: 5px solid rgb(54, 54, 54);
+    border-radius: 0 0 10px 10px;
+}
+
+#info-container{
+    width: 66%;
+    padding-right: 5vw;
+}
+
+#intro-p{
+}
+
+#profile-pic-container{
+    width: 33%;
+}
+
+#skills{
+    padding: 25px;
+}
+
+#skills-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#work-container{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.work-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 5px solid rgb(54,54,54);
+    border-radius: 10px;
+    width: 300px;
+    padding: 25px;
+}
+
+.work-title{
+    text-align: center;
+}
+
+button{
+    background-color: var(--cyber-yellow);
+    border: none;
+    border-bottom: 5px solid var(--honey-yellow);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease-in-out 150ms;
+}
+button:hover{
+    transform: translateY(-5px) scale(1.1) rotate(5deg);
+    transition: ease-in-out 150ms;
+}
