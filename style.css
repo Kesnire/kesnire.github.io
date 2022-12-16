@@ -49,7 +49,74 @@ i:hover{
     transition: ease-in-out 150ms;
 }
 
+label{
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+input{
+    background-color: rgb(228, 233, 240);
+    border: none;
+    height: 35px;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 0 5px;
+    transition: ease-in-out 150ms;
+}
+input:focus, textarea:focus{
+    border: none;
+    border-bottom: 5px solid rgb(54, 54, 54);
+    transition: ease-in-out 150ms;
+}
+textarea{
+    background-color: rgb(228, 233, 240);
+    font-size: 1em;
+    font-weight: 700;
+    padding: 0 5px;
+    border: none;
+    min-height: 80px;
+}
+button{
+    background-color: var(--cyber-yellow);
+    border: none;
+    border-bottom: 5px solid var(--honey-yellow);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease-in-out 150ms;
+}
+button:hover{
+    transform: translateY(-5px) scale(1.1) rotate(5deg);
+    transition: ease-in-out 150ms;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
 .centered{
+    text-align: center;
+}
+.card-title{
+    margin: 0;
+}
+
+.work-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 5px solid rgb(54,54,54);
+    border-radius: 10px;
+    width: 300px;
+    padding: 25px;
+}
+
+.work-title{
     text-align: center;
 }
 
@@ -89,34 +156,10 @@ i:hover{
     justify-content: space-around;
 }
 
-.work-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+#contact{
     background-color: white;
-    border-bottom: 5px solid rgb(54,54,54);
+    border-bottom: 5px solid rgb(54, 54, 54);
     border-radius: 10px;
-    width: 300px;
-    padding: 25px;
-}
-
-.work-title{
-    text-align: center;
-}
-
-button{
-    background-color: var(--cyber-yellow);
-    border: none;
-    border-bottom: 5px solid var(--honey-yellow);
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 1.3em;
-    font-weight: 700;
-    cursor: pointer;
-    transition: ease-in-out 150ms;
-}
-button:hover{
-    transform: translateY(-5px) scale(1.1) rotate(5deg);
-    transition: ease-in-out 150ms;
+    padding: 8px 25px 25px 25px;
+    margin: 25px;
 }

@@ -14,7 +14,7 @@
   <body>
     <section id="introduction">
       <div id="info-container">
-        <h1>Oh Hey! Nice To Meet You </h1>
+        <h1 class="card-title">Oh Hey! Nice To Meet You </h1>
 
         <h3>My Name Is Matt,</h3>
 
@@ -49,7 +49,7 @@
       <div id="work-container">
 
         <div class="work-wrapper">
-          <h3 class="work-title">Persona Generator</h3>
+          <h3 class="work-title card-title">Persona Generator</h3>
           <p class="work-description">Trying to come up with an RPG Character
             Trait/Class combination and struggling to find something unique?
             Give this randomizer a try... but uhh... feel free to re-roll 
@@ -58,7 +58,7 @@
         </div>
 
         <div class="work-wrapper">
-          <h3 class="work-title">Some Great Thing</h3>
+          <h3 class="work-title card-title">Some Great Thing</h3>
           <p class="work-description">Yeah, you heard me, make something great!
           </p>
           <button>Cool Stuffs</button>
@@ -67,6 +67,17 @@
       </div>
     </section>
 
+    <section id="contact">
+      <h1 class="centered card-title">Contact</h1>
+      <div id="contact-form-container">
+        <form>
+          <label>Full Name</label> <input type="text" id="name" name="'name" required> <br>
+          <label>Email</label> <input type="email" required> <br>
+          <label>Comments</label> <textarea id="comment" name="comment"></textarea> <br>
+        </form>
+        <button id="submit">Submit</button>
+      </div>
+    </section>
     
   </body>
 </html>
