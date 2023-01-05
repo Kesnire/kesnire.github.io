@@ -206,5 +206,9 @@ form{
 @media only screen and (max-width: 1550px) {
     #work-container{
         flex-direction: column;
+        align-items: center;
+    }
+    .work-wrapper{
+        margin-bottom: 25px;
     }
 }
