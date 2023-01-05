@@ -202,3 +202,9 @@ form{
     color: white;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1550px) {
+    #work-container{
+        flex-direction: column;
+    }
+}
