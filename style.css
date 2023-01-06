@@ -133,15 +133,9 @@ form{
     padding-right: 5vw;
 }
 
-#intro-p{
-}
-
-#profile-pic-container{
-    width: 33%;
-}
-
 #skills{
     padding: 25px;
+    margin: 1px;
 }
 
 #skills-container{
@@ -210,5 +204,11 @@ form{
     }
     .work-wrapper{
         margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 545px){
+    #info-container{
+        width: 100%;
     }
 }
