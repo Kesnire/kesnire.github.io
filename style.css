@@ -155,7 +155,9 @@ form{
     border-bottom: 5px solid rgb(54, 54, 54);
     border-radius: 10px;
     padding: 8px 25px 25px 25px;
-    margin: 25px;
+    margin: auto;
+    margin-bottom: 5%;
+    max-width: 725px;
 }
 
 /* Modal CSS */
